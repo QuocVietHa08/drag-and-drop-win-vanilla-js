@@ -1,0 +1,36 @@
+body{
+    background:darksalom;
+}
+
+.fill{
+    background-image: url('http://source.unsplash.com/random/150x150');
+    position:relative;
+    width:150px;
+    height:150px;
+    top:5px;
+    left:5px;
+    cursor:pointer;
+}
+
+.empty{
+    display:inline-block;
+    height:160px;
+    width:160px;
+    margin:10px;
+    border:1px salmon solid;
+    background-color:white;
+}
+
+.hold{
+    border: solid #ccc 4px;
+
+}
+
+.hovered{
+    background:#f4f4f4;
+    border-styles:dashed;
+}
+
+.invisible{
+    display:none;
+}
